@@ -20,22 +20,22 @@ class Contacts(db.Model):
     email = db.Column(db.String(20), nullable=False)
 
 
-@app.route("/")
+@app.route("https://hello-mom.herokuapp.com")
 def hello():
     return render_template('index.html')
 
 
-@app.route("/about")
+@app.route("https://hello-mom.herokuapp.com/about")
 def about():
     return render_template('about.html')
 
 
-@app.route("/post")
+@app.route("https://hello-mom.herokuapp.com/post")
 def post():
     return render_template('post.html')
 
 
-@app.route("/contact", methods=['GET', 'POST'])
+@app.route("https://hello-mom.herokuapp.com/contact", methods=['GET', 'POST'])
 def contact():
     if request.method == 'POST':
         '''ADD ENTRY TO THE DATABASE'''
