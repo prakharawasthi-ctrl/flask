@@ -20,7 +20,7 @@ class Contacts(db.Model):
     email = db.Column(db.String(20), nullable=False)
 
 
-@app.route("https://myschool-avm.herokuapp.com")
+@app.route("https://myschool-avm.herokuapp.com/")
 def hello():
     return render_template('index.html')
 
