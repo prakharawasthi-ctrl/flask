@@ -74,7 +74,7 @@ prompt-toolkit==3.0.7
 protobuf==3.13.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-PyAudio @ file:///C:/Users/Supreme%20Electronics/Downloads/PyAudio-0.2.11-cp38-cp38-win32.whl
+
 pycparser==2.20
 Pygments==2.6.1
 PyJWT==1.7.1
